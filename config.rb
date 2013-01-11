@@ -18,7 +18,7 @@ end
 puts 'done.'
 puts 'Now I need to clone the proper git repos for vim configuration.'
 
-%w(tpope/vim-fugitive Lokaltog/vim-easymotion tpope/vim-rails tpope/vim-cucumber tpope/vim-endwise scrooloose/nerdtree kchmck/vim-coffee-script scrooloose/syntastic kien/ctrlp.vim ervandew/supertab briancollins/vim-jst).each do |repo|
+%w(gmarik/vundle tpope/vim-fugitive Lokaltog/vim-easymotion tpope/vim-rails tpope/vim-cucumber tpope/vim-endwise scrooloose/nerdtree kchmck/vim-coffee-script scrooloose/syntastic kien/ctrlp.vim ervandew/supertab briancollins/vim-jst).each do |repo|
   `git clone git@github.com:#{repo}.git ~/dotfiles/vim/bundle/#{repo.split('/')[1]}`
 end
 `vim +BundleInstall +qall`

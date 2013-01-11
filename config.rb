@@ -1,12 +1,9 @@
 puts 'I will set up your machine.'
 puts 'First your current dotfiles will be renamed.'
 
-`mv ~/.bashrc{,.backup}` if File.exists? '~/.bashrc'
-`mv ~/.vimrc{,.backup}` if File.exists? '~/.vimrc'
-`mv ~/.bash_profile{,.backup}` if File.exists? '~/.bash_profile'
-`mv ~/.bash_aliases{,.backup}` if File.exists? '~/.bash_aliases'
-`mv ~/.bash_login{,.backup}` if File.exists? '~/.bash_login'
-`mv ~/.vim{,_backup}` if File.exists? '~/.vim'
+%w(.bashrc .vimrc .bash_profile .bash_aliases .bash_login .vim).each do |file|
+  `mv ~/#{file} #{file}.backup` if File.exists "~/#{file}"
+end
 
 puts 'done.'
 puts 'I will add symlinks to point to the dotfiles in the dotfiles repo'

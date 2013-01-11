@@ -1,6 +1,8 @@
 #!/bin/bash
 alias cde='cd ~/Projects/Corndog'
 alias etl='cd ~/Projects/cde-etl'
+alias ios='cd ~/Projects/dealermatch_ios'
+alias kbb='cd ~/Projects/kbb_service'
 alias gs='git status'
 alias gc='git checkout'
 alias gb='git branch'

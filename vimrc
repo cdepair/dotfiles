@@ -5,17 +5,17 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle 'vim-fugitive'
-Bundle 'vim-easymotion'
-Bundle 'vim-rails'
-Bundle 'vim-cucumber'
-Bundle 'vim-endwise'
-Bundle 'nerdtree'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-endwise'
+Bundle 'scrooloose/nerdtree'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'syntastic'
+Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
-Bundle 'supertab'
-Bundle 'vim-jst'
+Bundle 'ervandew/supertab'
+Bundle 'briancollins/vim-jst'
 
 syntax on
 filetype plugin indent on

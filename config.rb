@@ -25,4 +25,4 @@ puts 'Next I will source your bash_profile'
 
 `source ~/.bash_profile`
 
-puts 'Your are all set up.'
+puts 'You are all set up.'

@@ -2,7 +2,7 @@ puts 'I will set up your machine.'
 puts 'First your current dotfiles will be renamed.'
 
 %w(.bashrc .vimrc .bash_profile .bash_aliases .bash_login .vim).each do |file|
-  `mv ~/#{file} #{file}.backup` if File.exists "~/#{file}"
+  `mv ~/#{file} ~/#{file}.backup` if File.exists? "~/#{file}"
 end
 
 puts 'done.'

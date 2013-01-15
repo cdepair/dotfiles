@@ -54,7 +54,6 @@ set tabstop=2
 set shiftwidth=2
 set hidden
 set number
-set fu
 set ic
 set hlsearch
 set incsearch

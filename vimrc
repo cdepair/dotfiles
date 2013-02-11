@@ -77,6 +77,15 @@ autocmd!
 autocmd GuiEnter * set columns=120 lines=70 number
 augroup END
 
+" remove whistespace at end of line before write
+func! StripTrailingWhitespace()
+  normal mZ
+  %s/\s\+$//e
+  normal `Z
+endfunc
+au BufWrite * if ! &bin | call StripTrailingWhitespace() | endif
+
+
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif

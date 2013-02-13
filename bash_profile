@@ -40,3 +40,5 @@ if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_aut
 }
 # Uncomment to persist pair info between terminal instances
 # hitch
+
+export GREP_OPTIONS='--color=auto'

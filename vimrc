@@ -43,7 +43,7 @@ map <leader>rv :Rview<CR>
 map <leader>rl :Rlocale<CR>
 
 set wildmenu
-set wildmode=list,longest,full
+set wildmode=list:longest
 set splitright
 set splitbelow
 set cindent

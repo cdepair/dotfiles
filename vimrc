@@ -85,6 +85,8 @@ func! StripTrailingWhitespace()
 endfunc
 au BufWrite * if ! &bin | call StripTrailingWhitespace() | endif
 
+" Add syntax highlighting for rabl
+au BufRead,BufNewFile *.rabl setf ruby
 
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local

@@ -34,4 +34,8 @@ alias unhitch='hitch -u'
 alias jaz="phantomjs spec/javascripts/runner.coffee http://localhost:5555/jasmine | grep -h -B3 -A1 '\(failures\|\"passed\": false\|messages\)'"
 alias l='ls -ltr'
 alias z='zeus'
+alias ,v='vim ~/.vimrc'
+alias vv='vim ~/.vimrc'
+alias va='vim ~/.bash_aliases'
+
 growl() { growlnotify -n 'Terminal' -m $1; }

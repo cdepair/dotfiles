@@ -28,7 +28,11 @@ let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
 let g:rails_projections = {
       \ "app/assets/javascripts/*.js.coffee": { "alternate": "spec/javascripts/%s_spec.coffee" },
-      \ "spec/javascripts/*_spec.coffee": { "alternate": "app/assets/javascripts/%s.js.coffee" }
+      \ "spec/javascripts/*_spec.coffee": { "alternate": [
+      \   "app/assets/javascripts/%s.js.coffee",
+      \   "app/assets/javascripts/%s.jst.ejs"
+      \ ] },
+      \ "app/assets/javascripts/*.jst.ejs": { "alternate": "spec/javascripts/%s_spec.coffee" }
       \}
 
 set wildignore+=*/spec/reports/*,*/vendor/*

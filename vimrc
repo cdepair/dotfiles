@@ -27,9 +27,10 @@ let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
 
 let g:rails_projections = {
-      \ "app/assets/javascripts/*.js.coffee": {
-      \   "alternate": "spec/javascripts/%s_spec.coffee"
-      \ }}
+      \ "app/assets/javascripts/*.js.coffee": { "alternate": "spec/javascripts/%s_spec.coffee" },
+      \ "spec/javascripts/*_spec.coffee": { "alternate": "app/assets/javascripts/%s.js.coffee" }
+      \}
+
 set wildignore+=*/spec/reports/*,*/vendor/*
 
 set laststatus=2

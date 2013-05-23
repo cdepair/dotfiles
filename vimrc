@@ -22,6 +22,10 @@ syntax on
 filetype plugin indent on
 
 set nocompatible
+" Set options for ctrlp.vim
+let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+
 let g:rails_projections = {
       \ "app/assets/javascripts/*.js.coffee": {
       \   "alternate": "spec/javascripts/%s_spec.coffee"

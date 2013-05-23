@@ -30,6 +30,8 @@ let g:rails_projections = {
       \ "app/assets/javascripts/*.js.coffee": {
       \   "alternate": "spec/javascripts/%s_spec.coffee"
       \ }}
+set wildignore+=*/spec/reports/*,*/vendor/*
+
 set laststatus=2
 set encoding=utf-8
 

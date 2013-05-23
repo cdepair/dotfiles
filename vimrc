@@ -21,6 +21,10 @@ syntax on
 filetype plugin indent on
 
 set nocompatible
+let g:rails_projections = {
+      \ "app/assets/javascripts/*.js.coffee": {
+      \   "alternate": "spec/javascripts/%s_spec.coffee"
+      \ }}
 set laststatus=2
 set encoding=utf-8
 

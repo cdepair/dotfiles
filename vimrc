@@ -16,6 +16,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 Bundle 'ervandew/supertab'
 Bundle 'briancollins/vim-jst'
+Bundle 'jgdavey/vim-blockle'
 
 syntax on
 filetype plugin indent on

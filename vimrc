@@ -79,7 +79,9 @@ set nobackup
 set noeb vb t_vb=
 au GUIEnter * set vb t_vb=
 
-"colorscheme Molokai
+runtime macros/matchit.vim
+
+colorscheme molokai
 set guifont=Monaco:h14
 let g:Powerline_symbols = 'fancy'
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r

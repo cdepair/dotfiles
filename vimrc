@@ -59,6 +59,7 @@ map <leader>ro :Robserver<CR>
 map <leader>rv :Rview<CR>
 map <leader>rl :Rlocale<CR>
 
+set autoread    "Auto reload files changed outside of vim automatically
 set wildmenu
 set wildmode=list:longest
 set splitright

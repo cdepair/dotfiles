@@ -17,6 +17,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'ervandew/supertab'
 Bundle 'briancollins/vim-jst'
 Bundle 'jgdavey/vim-blockle'
+Bundle 'godlygeek/tabular'
 
 syntax on
 filetype plugin indent on

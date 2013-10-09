@@ -23,6 +23,7 @@ alias gcm='git commit -m'
 alias gcam='git commit -a -m'
 alias gac='git commit -a'
 alias gca='git commit -a'
+alias gg='git grep'
 alias h='history'
 alias be='bundle exec'
 alias gmim='mvim'
@@ -37,5 +38,10 @@ alias z='zeus'
 alias ,v='vim ~/.vimrc'
 alias vv='vim ~/.vimrc'
 alias va='vim ~/.bash_aliases'
+alias ow='open *.xcworkspace'
+alias sprec='be rspec'
 
 growl() { growlnotify -n 'Terminal' -m $1; }
+
+# Stash, co master, pull master, co branch, rebase against master, stash pop
+alias rebase_against_master='export PREV_BR=`git rev-parse --abbrev-ref HEAD`; git stash && git co master && git pull && git co $PREV_BR && git rebase master && git stash pop'

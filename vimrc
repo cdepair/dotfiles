@@ -21,15 +21,12 @@ Bundle 'briancollins/vim-jst'
 Bundle 'nelstrom/vim-visual-star-search'
 Bundle 'tomasr/molokai'
 Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-javascript'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'vim-scripts/HTML-AutoCloseTag'
 Bundle 'jgdavey/vim-blockle'
-Bundle 'godlygeek/tabular'
 Bundle 'ngmy/vim-rubocop'
 Bundle 'rking/ag.vim'
 
@@ -108,8 +105,6 @@ set foldmethod=syntax
 set foldminlines=1
 set foldlevel=100
 au GUIEnter * set vb t_vb=
-
-runtime macros/matchit.vim
 
 colorscheme Molokai
 set guifont=Monaco:h15

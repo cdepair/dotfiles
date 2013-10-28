@@ -81,6 +81,7 @@ map <leader>rf :Rfunctionaltest<CR>
 map <leader>ro :Robserver<CR>
 map <leader>rv :Rview<CR>
 map <leader>rl :Rlocale<CR>
+imap jj <Esc>
 
 set autoread    "Auto reload files changed outside of vim automatically
 set wildmenu

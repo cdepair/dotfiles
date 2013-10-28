@@ -104,6 +104,9 @@ set nobackup
 set autoread      "Autoreload files changed externally
 set noeb vb t_vb=
 set so=5
+set foldmethod=syntax
+set foldminlines=1
+set foldlevel=100
 au GUIEnter * set vb t_vb=
 
 runtime macros/matchit.vim

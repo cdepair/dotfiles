@@ -60,7 +60,7 @@
       url = https://github.com/tpope/vim-surround
 [submodule "vim/bundle/vim-visual-star-search"]
       path = vim/bundle/vim-visual-star-search
-      url = https://github.com/bronson/vim-visual-star-search
+      url = https://github.com/nelstrom/vim-visual-star-search
 [submodule "vim/bundle/vundle"]
       path = vim/bundle/vundle
       url =  https://github.com/gmarik/vundle

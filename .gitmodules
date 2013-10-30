@@ -6,16 +6,16 @@
         url = https://github.com/vim-scripts/HTML-AutoCloseTag
 [submodule "vim/bundle/molokai"]
         path = vim/bundle/molokai
-        url = https://github.com/vim-scripts/molokai
+        url = https://github.com/tomasr/molokai
 [submodule "vim/bundle/nerdtree"]
         path = vim/bundle/nerdtree
         url = https://github.com/scrooloose/nerdtree
 [submodule "vim/bundle/supertab"]
         path = vim/bundle/supertab
-        url = https://github.com/vim-scripts/supertab
+        url = https://github.com/ervandew/supertab
 [submodule "vim/bundle/tabular"]
         path = vim/bundle/tabular
-        url = https://github.com/vim-scripts/tabular
+        url = https://github.com/godlygeek/tabular
 [submodule "vim/bundle/vim-blockle"]
         path = vim/bundle/vim-blockle
         url = https://github.com/jgdavey/vim-blockle

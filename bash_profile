@@ -30,7 +30,7 @@ function s { find . -nowarn -name "*$1*" 2>/dev/null; }
 # searches for given filename exactly in current and all subdirectories
 function ss { find . -nowarn -name "$1" 2>/dev/null; }
 
-export EDITOR=/usr/local/bin/mvim
+export EDITOR=/usr/bin/vim
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator

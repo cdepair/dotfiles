@@ -29,6 +29,7 @@ Bundle 'vim-scripts/HTML-AutoCloseTag'
 Bundle 'jgdavey/vim-blockle'
 Bundle 'ngmy/vim-rubocop'
 Bundle 'rking/ag.vim'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 let vimrubocop_config='config/rubocop/rubocop.yml'
 
@@ -105,6 +106,9 @@ set foldmethod=syntax
 set foldminlines=1
 set foldlevel=100
 au GUIEnter * set vb t_vb=
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
 
 colorscheme Molokai
 set guifont=Monaco:h15

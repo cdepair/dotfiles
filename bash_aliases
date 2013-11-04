@@ -24,6 +24,8 @@ alias gcam='git commit -a -m'
 alias gac='git commit -a'
 alias gca='git commit -a'
 alias gg='git grep'
+
+# Other aliases
 alias h='history'
 alias be='bundle exec'
 alias gmim='mvim'
@@ -40,6 +42,7 @@ alias vv='vim ~/.vimrc'
 alias va='vim ~/.bash_aliases'
 alias ow='open *.xcworkspace'
 alias sprec='be rspec'
+alias la='ls -al'
 
 growl() { growlnotify -n 'Terminal' -m $1; }
 

@@ -149,8 +149,7 @@ au BufRead,BufNewFile *.hamlc setf haml
 "  autocmd BufWritePost .vimrc source $MYVIMRC
 "endif
 
-"Quickly edit .vimrc with ,v
-let mapleader=","
+let g:EasyMotion_leader_key = ','
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
 nnoremap <Leader>h :h <C-r><C-w><CR>

@@ -31,6 +31,8 @@ Bundle 'ngmy/vim-rubocop'
 Bundle 'rking/ag.vim'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Townk/vim-autoclose'
+Bundle 'thoughtbot/vim-rspec'
+
 
 let vimrubocop_config='config/rubocop/rubocop.yml'
 
@@ -208,3 +210,14 @@ endif
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
+
+"SPEECEEAL COnnfeg"
+"" Shert-cuts to derectorees
+map cde :cd ~/Projects/Corndog/<CR>
+map etl :cd ~/Projects/cde-etl/<CR>
+
+" Rspec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>

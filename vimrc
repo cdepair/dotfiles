@@ -65,6 +65,9 @@ syntax on
 set laststatus=2
 set encoding=utf-8
 
+ca cde cd ~/Projects/Corndog
+ca etl cd ~/Projects/cde-etl
+
 map <leader>ff :CtrlP<CR>
 map <leader>fb :CtrlPBuffer<CR>
 map <C-j> <C-W>j

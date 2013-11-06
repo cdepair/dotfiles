@@ -65,9 +65,6 @@ syntax on
 set laststatus=2
 set encoding=utf-8
 
-ca cde cd ~/Projects/Corndog
-ca etl cd ~/Projects/cde-etl
-
 map <leader>ff :CtrlP<CR>
 map <leader>fb :CtrlPBuffer<CR>
 map <C-j> <C-W>j
@@ -217,6 +214,8 @@ endif
 "" Shert-cuts to derectorees
 map cde :cd ~/Projects/Corndog/<CR>
 map etl :cd ~/Projects/cde-etl/<CR>
+ca cde cd ~/Projects/Corndog
+ca etl cd ~/Projects/cde-etl
 
 " Rspec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>

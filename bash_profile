@@ -20,6 +20,7 @@ export PATH=/usr/local/bin:$PATH
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+export CUCUMBER_COLORS=comment=reset
 
 PS1='\[\e[0;91m\]\u@\h\[\e[m\] \[\e[0;92m\]\w\[\e[m\]\[\e[0;93m\]$(__git_ps1)\[\033[00m\] \[\e[0;96m\]\$ \[\e[m\]\[\e[0;97m\]'
 

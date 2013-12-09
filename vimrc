@@ -210,8 +210,8 @@ endif
 
 "SPEECEEAL COnnfeg"
 "" Shert-cuts to derectorees
-map cde :cd ~/Projects/Corndog/<CR>
-map etl :cd ~/Projects/cde-etl/<CR>
+ca cde cd ~/Projects/Corndog
+ca etl cd ~/Projects/cde-etl
 
 " Rspec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>

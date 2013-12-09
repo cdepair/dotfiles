@@ -29,7 +29,6 @@ Bundle 'jgdavey/vim-blockle'
 Bundle 'ngmy/vim-rubocop'
 Bundle 'rking/ag.vim'
 Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'Townk/vim-autoclose'
 Bundle 'thoughtbot/vim-rspec'
 
 

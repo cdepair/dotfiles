@@ -138,9 +138,9 @@ func! StripTrailingWhitespace()
 endfunc
 au BufWrite * if ! &bin | call StripTrailingWhitespace() | endif
 
-" Add syntax highlighting for rabl
+" Add syntax highlighting for various filetypes
 au BufRead,BufNewFile *.rabl setf ruby
-
+au BufRead,BufNewFile *.prawn setf ruby
 au BufRead,BufNewFile *.hamlc setf haml
 
 "Reload .vimrc after updating it

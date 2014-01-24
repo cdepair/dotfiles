@@ -143,6 +143,9 @@ au BufRead,BufNewFile *.rabl setf ruby
 au BufRead,BufNewFile *.prawn setf ruby
 au BufRead,BufNewFile *.hamlc setf haml
 
+" Disable highlighting for large files for better performance
+au BufWinEnter * if line2byte(line("$") + 1) > 20000 | syntax clear | endif
+
 "Reload .vimrc after updating it
 "if has("autocmd")
 "  autocmd BufWritePost .vimrc source $MYVIMRC

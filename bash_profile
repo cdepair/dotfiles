@@ -10,6 +10,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
 
+### OWSSH ###
+export OWSSH_USER="deploy"
+
 GIT_PS1_SHOWDIRTYSTATE=true
 
 if [ -f /opt/local/etc/bash_completion ]; then
